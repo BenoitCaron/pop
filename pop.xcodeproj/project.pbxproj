@@ -310,6 +310,7 @@
 		0755AE901BEA19580094AB41 /* pop-tvos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "pop-tvos-Info.plist"; path = "pop/pop-tvos-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0B6BE74819FFD3B900762101 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6BE7E619FFD98100762101 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		142BBF0926CFFAA300ABE996 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1818936D1B3B74DE002C4A59 /* pop-ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "pop-ios-Info.plist"; path = "pop/pop-ios-Info.plist"; sourceTree = SOURCE_ROOT; };
 		181893731B3B776B002C4A59 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1818937D1B3B79D7002C4A59 /* pop-tests-osx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "pop-tests-osx-Info.plist"; path = "pop-tests/pop-tests-osx-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -542,6 +543,7 @@
 		EC19120D162FB53A00E0CC76 = {
 			isa = PBXGroup;
 			children = (
+				142BBF0926CFFAA300ABE996 /* Package.swift */,
 				EC19121D162FB53A00E0CC76 /* pop */,
 				EC882A7518C91983007829CC /* pop-tests */,
 				ECC1DB0718CA291B008C7DEA /* Configuration */,
@@ -1086,6 +1088,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = EC19120D162FB53A00E0CC76;
